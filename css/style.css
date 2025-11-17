@@ -284,7 +284,7 @@ body.menu-open {
 #hero {
   width: 100%;
   height: 90vh;
-  background-image: url("/assets/hero-img1.png");
+  background-image: url("../assets/hero-img1.png");
   background-size: cover;
   background-position: top 25% right 0;
   padding: 0 80px;
@@ -302,7 +302,7 @@ body.menu-open {
   color: var(--primary-text-color);
 }
 #hero .shop-now-btn {
-  background-image: url("/assets/button.png");
+  background-image: url("../assets/button.png");
   background-color: transparent;
   border: none;
   padding: 14px 80px 14px 65px;
@@ -332,7 +332,7 @@ body.menu-open {
     align-items: center;
     justify-content: flex-start;
     padding: 50px 30px 0 30px;
-    background-image: url("/assets/hero-img2.jpeg");
+    background-image: url("../assets/hero-img2.jpeg");
   }
   #hero h2,
   #hero h1 {
@@ -341,7 +341,7 @@ body.menu-open {
 }
 @media (max-width: 500px) {
   #hero {
-    background-image: url("/assets/hero-img3.jpeg");
+    background-image: url("../assets/hero-img3.jpeg");
   }
   #hero h4 {
     font-size: 16px;
@@ -513,7 +513,7 @@ body.menu-open {
   background-repeat: no-repeat;
 }
 #banner1 {
-  background-image: url("/assets/banner/banner1.jpg");
+  background-image: url("../assets/banner/banner1.jpg");
   background-attachment: fixed;
 }
 .inner-banner h2 {
@@ -558,10 +558,10 @@ body.menu-open {
   overflow: hidden;
 }
 #banner2 .col-md-6:nth-child(1) .ban-box {
-  background-image: url("/assets/banner/banner2.jpg");
+  background-image: url("../assets/banner/banner2.jpg");
 }
 #banner2 .col-md-6:nth-child(2) .ban-box {
-  background-image: url("/assets/banner/banner3.jpg");
+  background-image: url("../assets/banner/banner3.jpg");
 }
 .ban-box h4 {
   color: #fff;
@@ -602,13 +602,13 @@ body.menu-open {
   padding: 60px 30px;
 }
 #banner2 .col-md-3:nth-child(1) .ban-box2 {
-  background-image: url("/assets/banner/banner4.jpg");
+  background-image: url("../assets/banner/banner4.jpg");
 }
 #banner2 .col-md-6 .ban-box2 {
-  background-image: url("/assets/banner/banner5.jpg");
+  background-image: url("../assets/banner/banner5.jpg");
 }
 #banner2 .col-md-3:nth-child(3) .ban-box2 {
-  background-image: url("/assets/banner/banner6.jpg");
+  background-image: url("../assets/banner/banner6.jpg");
 }
 #banner2 .ban-box2 h2 {
   color: #fff;
@@ -637,7 +637,7 @@ body.menu-open {
   background-repeat: no-repeat;
   background-position: 20% 30%;
   padding: 50px 20px;
-  background-image: url("/assets/banner/banner7.png");
+  background-image: url("../assets/banner/banner7.png");
 }
 .newstext {
   display: flex;
@@ -766,7 +766,7 @@ footer .footer-logo {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/assets/banner/banner8.jpg");
+  background-image: url("../assets/banner/banner8.jpg");
 }
 #shop-banner1 h2 {
   font-size: 40px;
@@ -907,7 +907,7 @@ footer .footer-logo {
 /* blog page starts */
 /* blog banner */
 #shop-banner1.blog-banner {
-  background-image: url("/assets/banner/banner9.jpg");
+  background-image: url("../assets/banner/banner9.jpg");
 }
 /* blog */
 #blog .row {
@@ -984,7 +984,7 @@ footer .footer-logo {
 
 /* about page starts */
 #shop-banner1.about-banner {
-  background-image: url("/assets/about/banner.jpeg");
+  background-image: url("../assets/about/banner.jpeg");
 }
 #about1 .about-img img {
   width: 100%;
@@ -1042,7 +1042,7 @@ footer .footer-logo {
 
 /* contact page starts */
 #shop-banner1.contact-banner {
-  background-image: url("/assets/banner/banner10.png");
+  background-image: url("../assets/banner/banner10.png");
 }
 /* contact details section */
 .contact-info {
@@ -1306,3 +1306,4 @@ footer .footer-logo {
     font-size: 14px;
   }
 }
+
