@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Website</title>
+    <!-- favicon link -->
+    <link rel="icon" type="image/png" href="assets/favicon/favicon.png" />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- desktop header starts -->
+    <header>
+      <div class="logo">
+        <a href="#"
+          ><img src="assets/logo/logo.png" alt="cara website logo"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- mobile header starts -->
+    <div class="mobile-header">
+      <div class="logo">
+        <a href="#"
+          ><img src="assets/logo/logo.png" alt="cara website logo"
+        /></a>
+      </div>
+      <div class="hamburger">&#9776;</div>
+      <nav class="mobile-navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- overlay for mobile navbar -->
+    <div class="overlay"></div>
+
+    <!-- banner1 starts -->
+    <section id="shop-banner1">
+      <div class="container-fluid">
+        <h2>#superdeals</h2>
+        <h4>Elevate your style — premium picks at unbeatable prices.</h4>
+      </div>
+    </section>
+
+    <!-- featured product section starts -->
+    <section id="product1">
+      <div class="container">
+        <div class="row g-3 d-flex">
+          <div class="col-6 col-sm-4 col-md-3">
+            <div
+              class="product-box"
+              onclick="window.location.href='sproduct.html';"
+            >
+              <img
+                src="assets/products/s1.jpeg"
+                alt="Women’s light blue cropped tie-front blouse on hanger"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Tie-Front Cropped Top</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$26.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s2.jpeg"
+                alt="Women’s high-waist wide-leg denim jeans"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>High-Waist Wide-Leg Jeans</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$44.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s3.jpeg"
+                alt="Women’s cream wrap top with flared sleeves"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Flared Sleeve Wrap Top</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$33.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s4.jpeg"
+                alt="Beige knitted winter scarf"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Knitted Winter Scarf</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$19.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s5.jpeg"
+                alt="Women’s striped oversized shirt hanging on hanger"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>White Elastic shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$31.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s6.jpeg"
+                alt="Women’s denim jacket worn by model"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Classic Denim Jacket</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$49.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s7.jpeg"
+                alt="Men’s navy half-zip pullover sweatshirt"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Half-Zip Navy Pullover</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$39.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s8.jpeg"
+                alt="Women’s grey midi skirt"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Grey Midi Skirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$28.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3 d-flex" style="padding-top: 15px">
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s9.jpeg"
+                alt="Men’s khaki cargo shorts with side pockets"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Khaki Utility Cargo Shorts</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s10.jpeg"
+                alt="Beige oversized pullover hoodie with kangaroo pocket"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Sand Dune Comfort Hoodie</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$63.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s11.jpeg"
+                alt="Light blue short-sleeve tie-front blouse on hanger"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Sky Mist Wrap Croptop</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$34.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s12.jpeg"
+                alt="Women’s wide-leg denim jeans in dark blue shade"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Wide-Leg Indigo Denim</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$46.59</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s13.jpeg"
+                alt="Cream satin wrap top with long puff sleeves"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Silky Wrap Couture Top</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$45.99</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s14.jpeg"
+                alt="Oversized blue denim jacket worn by model"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Urban Oversized Denim Jacket</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$56.89</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s15.jpeg"
+                alt="Brown and beige checkered fleece-lined shacket"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Autumn Plaid Warm Shacket</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$65</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/s16.jpeg"
+                alt="Beige floral printed summer top with front knot"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Floral Breeze Summer Top</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$39</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pagination starts -->
+    <section id="pagination">
+      <div class="container">
+        <a href="shop.html" class="pg-btn">1</a>
+        <a href="shop2.html" class="pg-btn">2</a>
+        <a href="shop3.html" class="pg-btn">3</a>
+      </div>
+    </section>
+
+    <!-- newsletter section starts -->
+    <section id="newsletter">
+      <div class="container-fluid">
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-12 col-md-6">
+            <div class="newstext">
+              <h4>Sign Up For Newsletters</h4>
+              <p>
+                Get E-mail updates about our latest shop and
+                <span>specials offers.</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="form justify-content-center justify-content-md-end">
+              <input type="email" placeholder="your email address" />
+              <button class="normal">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer starts -->
+    <footer>
+      <div class="container">
+        <div class="row g-3">
+          <!-- Column 1: Logo + Contact -->
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <div class="footer-section">
+              <img src="assets/logo/logo.png" alt="Logo" class="footer-logo" />
+              <h5>Contact</h5>
+              <p>
+                <strong>Address:</strong> 562 Wellington Road, Street 32, San
+                Francisco
+              </p>
+              <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 6789</p>
+              <p><strong>Hours:</strong> 10:00 – 18:00, Mon – Sat</p>
+
+              <div class="social-follow mt-3">
+                <h6>Follow Us</h6>
+                <div class="social-icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: About + Account -->
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <div class="row">
+              <div class="col-6">
+                <div class="footer-section">
+                  <h5>About</h5>
+                  <ul class="list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="footer-section">
+                  <h5>My Account</h5>
+                  <ul class="list">
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">View Cart</a></li>
+                    <li><a href="#">My Wishlist</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Help</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 3: Install App + Payments -->
+          <div class="col-12 col-md-4">
+            <div class="footer-section">
+              <h5>Install App</h5>
+              <p>From App Store or Google Play</p>
+              <div class="d-flex gap-2 mb-3">
+                <img src="assets/pay/app.jpg" alt="App Store" width="120" />
+                <img src="assets/pay/play.jpg" alt="Google Play" width="120" />
+              </div>
+              <p>Secured Payment Gateways</p>
+              <img src="assets/pay/pay.png" alt="Payment Methods" width="250" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom javascript link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

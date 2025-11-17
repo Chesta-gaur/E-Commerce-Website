@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Website</title>
+    <!-- favicon link -->
+    <link rel="icon" type="image/png" href="assets/favicon/favicon.png" />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- desktop header starts -->
+    <header>
+      <div class="logo">
+        <a href="#"
+          ><img src="assets/logo/logo.png" alt="cara website logo"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- mobile header starts -->
+    <div class="mobile-header">
+      <div class="logo">
+        <a href="#"
+          ><img src="assets/logo/logo.png" alt="cara website logo"
+        /></a>
+      </div>
+      <div class="hamburger">&#9776;</div>
+      <nav class="mobile-navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- overlay for mobile navbar -->
+    <div class="overlay"></div>
+
+    <!-- banner1 starts -->
+    <section id="shop-banner1">
+      <div class="container-fluid">
+        <h2>#superdeals</h2>
+        <h4>Elevate your style — premium picks at unbeatable prices.</h4>
+      </div>
+    </section>
+
+    <!-- featured product section starts -->
+    <section id="product1">
+      <div class="container">
+        <div class="row g-3 d-flex">
+          <div class="col-6 col-sm-4 col-md-3">
+            <div
+              class="product-box"
+              onclick="window.location.href='sproduct.html';"
+            >
+              <img
+                src="assets/products/f1.jpg"
+                alt="First shirt (colorful floral abstract)"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Tropical Bloom Printed Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/f2.jpg"
+                alt="Second shirt (white with green leaves)"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Palm Garden Linen Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$82</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/f3.jpg"
+                alt="Third shirt (cream with red roses)"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Vintage Rose Casual Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$79</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/f4.jpg"
+                alt="Fourth shirt (white with pink cherry blossoms)"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Cherry Blossom Cotton Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$75</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/f5.jpg"
+                alt="Fifth shirt (navy with pink flowers)"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Midnight Floral Button-Down</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$85</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/f6.jpg"
+                alt="Sixth shirt (half orange half blue)"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Dual-Tone Corduroy Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$88</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/f7.jpg"
+                alt="Seventh (beige pant outfit)"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Beige Linen Straight Pants</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$92</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/f8.jpg"
+                alt="Eighth (lavender top with cat pattern)"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Lavender Cat-Print Oversized Top</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$80</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3 d-flex" style="padding-top: 15px">
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/n1.jpg"
+                alt="Light blue cotton shirt with button-down collar"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Sky Breeze Cotton Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/n2.jpg"
+                alt="Navy blue checkered linen shirt"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Ocean Grid Linen Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$82</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/n3.jpg"
+                alt="White classic button-up shirt"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Arctic White Classic Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$79</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/n4.jpg"
+                alt="Beige printed short-sleeve shirt"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Sandstone Patterned Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$75</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/n5.jpg"
+                alt="Denim textured blue shirt"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Urban Indigo Denim Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$85</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/n6.jpg"
+                alt="Grey striped shorts with woven belt"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Coastal Striped Shorts</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$88</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/n7.jpg"
+                alt="Camel brown full-sleeve shirt with flap pockets"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Desert Tan Utility Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$92</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3">
+            <div class="product-box">
+              <img
+                src="assets/products/n8.jpg"
+                alt="Charcoal short-sleeve shirt with clean collar"
+              />
+              <div class="des">
+                <span>adidas</span>
+                <h5>Midnight Ash Casual Shirt</h5>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>$80</h4>
+              </div>
+              <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pagination starts -->
+    <section id="pagination">
+      <div class="container">
+        <a href="shop.html" class="pg-btn">1</a>
+        <a href="shop2.html" class="pg-btn">2</a>
+        <a href="shop3.html" class="pg-btn">3</a>
+      </div>
+    </section>
+
+    <!-- newsletter section starts -->
+    <section id="newsletter">
+      <div class="container-fluid">
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-12 col-md-6">
+            <div class="newstext">
+              <h4>Sign Up For Newsletters</h4>
+              <p>
+                Get E-mail updates about our latest shop and
+                <span>specials offers.</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="form justify-content-center justify-content-md-end">
+              <input type="email" placeholder="your email address" />
+              <button class="normal">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer starts -->
+    <footer>
+      <div class="container">
+        <div class="row g-3">
+          <!-- Column 1: Logo + Contact -->
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <div class="footer-section">
+              <img src="assets/logo/logo.png" alt="Logo" class="footer-logo" />
+              <h5>Contact</h5>
+              <p>
+                <strong>Address:</strong> 562 Wellington Road, Street 32, San
+                Francisco
+              </p>
+              <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 6789</p>
+              <p><strong>Hours:</strong> 10:00 – 18:00, Mon – Sat</p>
+
+              <div class="social-follow mt-3">
+                <h6>Follow Us</h6>
+                <div class="social-icons">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                  <i class="fab fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: About + Account -->
+          <div class="col-12 col-md-4 mb-4 mb-md-0">
+            <div class="row">
+              <div class="col-6">
+                <div class="footer-section">
+                  <h5>About</h5>
+                  <ul class="list">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="footer-section">
+                  <h5>My Account</h5>
+                  <ul class="list">
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">View Cart</a></li>
+                    <li><a href="#">My Wishlist</a></li>
+                    <li><a href="#">Track My Order</a></li>
+                    <li><a href="#">Help</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 3: Install App + Payments -->
+          <div class="col-12 col-md-4">
+            <div class="footer-section">
+              <h5>Install App</h5>
+              <p>From App Store or Google Play</p>
+              <div class="d-flex gap-2 mb-3">
+                <img src="assets/pay/app.jpg" alt="App Store" width="120" />
+                <img src="assets/pay/play.jpg" alt="Google Play" width="120" />
+              </div>
+              <p>Secured Payment Gateways</p>
+              <img src="assets/pay/pay.png" alt="Payment Methods" width="250" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom javascript link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
